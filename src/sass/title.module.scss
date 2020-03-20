@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: var(--primaryColor);
+}
+
+.bottom-line {
+  height: 2px;
+  width: 4rem;
+  background: var(--secondarycolor);
+  display: block;
+  margin: 2rem auto 2rem auto;
+}
