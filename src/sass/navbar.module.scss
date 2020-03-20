@@ -89,7 +89,7 @@
 @media screen and (max-width: 992px) {
   .nav-links a {
     border-bottom: 1px solid var(--secondarycolor);
-    width: 22%;
+    width: 25%;
     margin: 0 auto;
 
     &:hover {
@@ -135,4 +135,10 @@
 
 .main {
   padding: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+  .nav-links a {
+    width: 35%;
+  }
 }

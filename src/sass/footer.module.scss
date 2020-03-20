@@ -5,6 +5,10 @@
   padding: 4rem;
   text-align: center;
   color: var(--mainWhite);
+
+  @media only screen and (max-width: 40rem) {
+    font-size: 1.5rem;
+  }
 }
 .links a {
   display: inline-block;
