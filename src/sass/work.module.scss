@@ -3,12 +3,14 @@
 }
 
 .work-container {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: scale(1);
   max-width: 117rem;
   margin: 6rem auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 2rem;
-  row-gap: 2.5rem;
+  column-gap: 3rem;
+  row-gap: 3rem;
   cursor: pointer;
   margin-bottom: 8rem;
 
