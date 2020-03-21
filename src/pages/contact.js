@@ -31,12 +31,13 @@ const Contact = () => {
           <div className={styles.formContainer}>
             <h1 className={styles.formHeader}>Lets Start Your Next Project!</h1>
             <form
-              name="contact"
+              name="contact-form"
               className={styles.form}
               action="/success"
               method="POST"
               data-netlify="true"
             >
+              <input type="hidden" name="form-name" value="contact" />
               <FormInput
                 type="text"
                 name="fullName"
