@@ -12,16 +12,6 @@ const Contact = () => {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
-  // const handleSubmit = e => {
-  //   e.preventDefault()
-  // }
-
-  // const handleChange = e => {
-  //   const { value, name } = e.target
-
-  //   setInput({ ...input, [name]: value })
-  // }
-
   return (
     <Layout>
       <SEO title="Contact" description="Contact Me" />
@@ -32,8 +22,9 @@ const Contact = () => {
             <h1 className={styles.formHeader}>Lets Start Your Next Project!</h1>
             <form
               name="contact-form"
+              netlify-honeypot="bot-field"
               className={styles.form}
-              action="/contact/success"
+              action="/success"
               method="POST"
               data-netlify="true"
             >
