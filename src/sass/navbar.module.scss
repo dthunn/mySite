@@ -54,7 +54,7 @@
 }
 
 .show-nav {
-  height: 25rem;
+  height: 23rem;
   text-align: center;
 }
 
@@ -88,12 +88,12 @@
 
 @media screen and (max-width: 992px) {
   .nav-links a {
-    border-bottom: 1px solid var(--secondarycolor);
-    width: 25%;
+    // border-bottom: 1px solid var(--secondarycolor);
+    // width: 25%;
     margin: 0 auto;
 
     &:hover {
-      border-bottom: 1px solid var(--primaryColor);
+      // border-bottom: 1px solid var(--primaryColor);
     }
   }
 }
@@ -139,6 +139,6 @@
 
 @media screen and (max-width: 650px) {
   .nav-links a {
-    width: 35%;
+    // width: 45%;
   }
 }
