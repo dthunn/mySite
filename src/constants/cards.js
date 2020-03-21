@@ -5,7 +5,7 @@ export default [
     icon: <FaDesktop />,
     title: 'UI Development',
     text:
-      'Using the latest HTML and CSS techniques, as well as CSS frameworks such as Bootstrap 4 and Materialize CSS',
+      'Using the latest HTML and CSS techniques, as well as CSS frameworks such as Bootstrap 4 and Materialize CSS.',
   },
   {
     icon: <FaJs />,
