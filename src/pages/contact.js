@@ -12,9 +12,9 @@ const Contact = () => {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
-  const handleSubmit = e => {
-    e.preventDefault()
-  }
+  // const handleSubmit = e => {
+  //   e.preventDefault()
+  // }
 
   // const handleChange = e => {
   //   const { value, name } = e.target
@@ -31,7 +31,7 @@ const Contact = () => {
           <div className={styles.formContainer}>
             <h1 className={styles.formHeader}>Lets Start Your Next Project!</h1>
             <form
-              onSubmit={handleSubmit}
+              name="contact"
               className={styles.form}
               action="/success"
               method="POST"
