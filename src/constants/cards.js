@@ -11,7 +11,7 @@ export default [
     icon: <FaJs />,
     title: 'JavaScript',
     text:
-      'Vanilla JS and also using JS frameworks such as React and Vue. Knowledge of server side Node.js as well.',
+      'Vanilla JS and also using JS frameworks such as React and Vue. Knowledge using server side Node.js as well.',
   },
   {
     icon: <FaAdobe />,
