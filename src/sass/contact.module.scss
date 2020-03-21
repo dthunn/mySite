@@ -1,3 +1,47 @@
 .contact {
-  margin-top: 9rem;
+  margin-top: 8rem;
+}
+
+.container {
+  margin: 5rem auto;
+  // padding: 5rem;
+
+  @media only screen and (max-width: 700px) {
+    padding: 0 2rem;
+  }
+}
+
+.form-container {
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.08);
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 6rem 8rem;
+
+  @media only screen and (max-width: 700px) {
+    padding: 6rem 6rem;
+  }
+}
+
+.form-header {
+  text-align: center;
+  color: var(--primaryColor);
+  // margin-top: 3rem;
+}
+
+.form {
+  // display: flex;
+  // flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+
+  @media only screen and (max-width: 700px) {
+    // padding: 0rem 5rem;
+  }
+}
+
+.button-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }

@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Banner from '../components/Banner'
 import Card from '../components/Card'
 import Title from '../components/Title'
+import SEO from '../components/SEO'
 
 import cards from '../constants/cards'
 
@@ -17,6 +17,7 @@ const Index = ({ data }) => {
   return (
     <div>
       <Layout>
+        <SEO title="Home" description="My Home Page" />
         <Header img={data.file.childImageSharp.fluid}>
           <Banner />
         </Header>

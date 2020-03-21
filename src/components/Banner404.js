@@ -2,15 +2,20 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Typewriter from 'typewriter-effect'
 
-import styles from '../sass/banner.module.scss'
+import styles from '../sass/banner404.module.scss'
 
 const Banner = () => {
   return (
     <div className={styles.typeWriter}>
-      <h1 className={styles.name}>Dylan Thunn</h1>
+      <h1 className={styles.name}>This page Does not exist</h1>
       <Typewriter
         options={{
-          strings: ['UI Developer', 'Graphic Designer'],
+          strings: [
+            'Not a page.',
+            'Exit whenever',
+            'Still here?',
+            'You are clearly not busy.',
+          ],
           autoStart: true,
           loop: true,
         }}
@@ -29,8 +34,8 @@ const Banner = () => {
             .start()
         }}
       />
-      <Link fade to="/portfolio" className="btn-white">
-        My Portfolio
+      <Link fade to="/work" className="btn-white">
+        Return Home
       </Link>
     </div>
   )
