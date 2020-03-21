@@ -8,7 +8,7 @@ import {
 export default [
   {
     icon: <FaGithub />,
-    url: 'https://twitter.com/?lang=en',
+    url: 'https://github.com/dthunn',
   },
   {
     icon: <FaTwitterSquare />,

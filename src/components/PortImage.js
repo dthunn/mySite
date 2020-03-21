@@ -7,7 +7,9 @@ const PortImage = ({ port }) => {
     <div className={styles.container}>
       <a href={port.link} className={styles.link}>
         <img src={port.image} className={styles.image} alt={port.alt} />
-        <h1 className={styles.title}>{port.title}</h1>
+        <div styles={styles.overlay}>
+          <h2 className={styles.title}>{port.title}</h2>
+        </div>
       </a>
     </div>
   )
