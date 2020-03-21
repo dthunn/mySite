@@ -17,7 +17,9 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
-          <img src={logo} alt="my logo" className={styles.dtlogo} />
+          <Link to="/">
+            <img src={logo} alt="my logo" className={styles.dtlogo} />
+          </Link>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <FaAlignRight className={styles.logoIcon} />
           </button>
