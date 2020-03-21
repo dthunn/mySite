@@ -31,6 +31,7 @@ const Contact = () => {
           <div className={styles.formContainer}>
             <h1 className={styles.formHeader}>Lets Start Your Next Project!</h1>
             <form
+              onSubmit={handleSubmit}
               className={styles.form}
               action="/success"
               method="POST"
