@@ -34,7 +34,9 @@ const Navbar = () => {
           {links.map((item, index) => {
             return (
               <li key={index}>
-                <Link to={item.path}>{item.text}</Link>
+                <Link to={item.path} onClick={toggleNav}>
+                  {item.text}
+                </Link>
               </li>
             )
           })}
