@@ -54,7 +54,11 @@ const Contact = () => {
                 required
               />
               <div className={styles.buttonContainer}>
-                <button type="submit" className="btn-white btn-white--form">
+                <button
+                  type="submit"
+                  className="btn-white btn-white--form"
+                  aria-label="Submit"
+                >
                   Submit
                 </button>
               </div>
