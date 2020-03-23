@@ -24,6 +24,7 @@ const Footer = () => {
               key={index}
               href={item.url}
               target="_blank"
+              title={item.title}
               rel="noopener noreferrer"
             >
               {item.icon}

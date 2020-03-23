@@ -20,7 +20,12 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="my logo" className={styles.dtlogo} />
           </Link>
-          <button type="button" className={styles.logoBtn} onClick={toggleNav}>
+          <button
+            aria-label="Nav Dropdown"
+            type="button"
+            className={styles.logoBtn}
+            onClick={toggleNav}
+          >
             <FaAlignRight className={styles.logoIcon} />
           </button>
         </div>
