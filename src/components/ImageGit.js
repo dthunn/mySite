@@ -30,6 +30,7 @@ const Image = () => {
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
       alt="GitHub Searcher"
+      className="image"
     />
   )
 }

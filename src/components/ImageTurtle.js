@@ -32,6 +32,7 @@ const Image = () => {
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
       alt="Turtle Troupe"
+      className="image"
     />
   )
 }

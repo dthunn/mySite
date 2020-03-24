@@ -30,6 +30,7 @@ const Image = () => {
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
       alt="System Logger"
+      className="image"
     />
   )
 }

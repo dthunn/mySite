@@ -27,7 +27,11 @@ const Image = () => {
   `)
 
   return (
-    <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="SF Reality" />
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      className="image"
+      alt="SF Reality"
+    />
   )
 }
 
