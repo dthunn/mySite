@@ -16,9 +16,9 @@ import Img from 'gatsby-image'
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "sfreality.png" }) {
+      placeholderImage: file(relativePath: { eq: "heeder.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -30,7 +30,7 @@ const Image = () => {
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
       className="image"
-      alt="SF Reality"
+      alt="Heeder app"
     />
   )
 }

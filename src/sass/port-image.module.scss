@@ -42,6 +42,11 @@
     opacity: 1;
   }
 
+  &:hover .text {
+    transform: translate(-50%, -55%);
+    opacity: 1;
+  }
+
   &:hover .image {
     opacity: 0;
   }
@@ -67,6 +72,19 @@
   transform: translate(-50%, 30rem);
   white-space: nowrap;
   font-size: 3rem;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.text {
+  position: absolute;
+  color: var(--mainWhite);
+  z-index: 100;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -80rem);
+  white-space: nowrap;
+  font-size: 1.6rem;
   transition: all 0.2s ease-in-out;
   opacity: 0;
 }

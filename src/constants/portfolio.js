@@ -18,6 +18,13 @@ import ImageTurtle from '../components/ImageTurtle'
 
 export default [
   {
+    image: <ImageCrown />,
+    title: 'Crown Clothing',
+    text: 'React',
+    link: 'https://dt-clothing-site.herokuapp.com/',
+    alt: 'Clothing Site',
+  },
+  {
     image: <ImageJs />,
     title: 'JS Conference',
     text: 'UI',
@@ -25,11 +32,11 @@ export default [
     alt: 'JS Conference',
   },
   {
-    image: <ImageCrown />,
-    title: 'Crown Clothing',
-    text: 'UI/React',
-    link: 'https://dt-clothing-site.herokuapp.com/',
-    alt: 'Clothing Site',
+    image: <ImageSf />,
+    title: 'Heeder',
+    text: 'Django',
+    link: 'https://heeder-application.herokuapp.com/',
+    alt: 'Blog',
   },
   {
     image: <ImageAlps />,
@@ -41,21 +48,15 @@ export default [
   {
     image: <ImageGit />,
     title: 'GitHub Searcher',
-    text: 'UI/React',
+    text: 'React',
     link: 'https://elated-bardeen-a61c26.netlify.com/',
     alt: 'GitHub Searcher',
   },
-  {
-    image: <ImageSf />,
-    title: 'SF Reality',
-    text: 'UI',
-    link: 'https://condescending-raman-495eed.netlify.com/',
-    alt: 'Reality Site',
-  },
+
   {
     image: <ImageLogger />,
     title: 'System Logger',
-    text: 'UI/React',
+    text: 'React',
     link: 'https://shrouded-sierra-84061.herokuapp.com/',
     alt: 'System Logger',
   },

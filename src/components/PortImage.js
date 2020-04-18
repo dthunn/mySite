@@ -1,5 +1,4 @@
 import React from 'react'
-import Img from 'gatsby-image'
 
 import styles from '../sass/port-image.module.scss'
 
@@ -10,6 +9,7 @@ const PortImage = ({ port }) => {
         <div className={styles.image}>{port.image}</div>
         <div styles={styles.overlay}>
           <h2 className={styles.title}>{port.title}</h2>
+          <h3 className={styles.text}>{port.text}</h3>
         </div>
       </a>
     </div>
